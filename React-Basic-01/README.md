@@ -1,8 +1,12 @@
-# React + Vite
+# Simple project Call "Hunting AI"
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Its a simple project to learn,
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. **Component**
+    - How Component are work on react, and How to export them
+2. **React Formatting**
+    - How to format react code like, Component to page, Page to Main, main to App for render on root index.html file
+3. **Image insertion**
+    - Face some problem with image insertion, Because there is some way to do it on react.
+4. **Styling**
+    - Basic styles with react static page
