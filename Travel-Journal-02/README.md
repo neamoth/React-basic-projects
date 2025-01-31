@@ -1,8 +1,20 @@
-# React + Vite
+# Travel Journal for SoftNSM
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### This is a travel journal for SoftNSM Employees, Where they visit and what are their experience
 
-Currently, two official plugins are available:
+## Core Features:
+1. Journal:
+    1. Image snap
+    2. Location of the travel point
+    3. Details of experience
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Core Learning:
+1. Props
+ - How Props works as object and how to use it
+2. Styling:
+ -Some new properties of CSS been on development of this project and learn something from it.
+
+## Frontend User Interface:
+
+![UI of SoftNSM Journal Websiet](UI.png)
+    
