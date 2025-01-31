@@ -51,6 +51,7 @@ nav ul{
   align-items: center;
   justify-content: center;
   margin-top: 2rem;
+  padding: 55px;
 }
 .content ol{
   display: flex;
@@ -58,6 +59,11 @@ nav ul{
   gap: 1rem;
 }
 .content li{
+  font-size: 1.5rem;
+  line-height: 30px;
+}
+.content li::marker{
+  color: #61dafb;
   font-size: 2rem;
 }
 
