@@ -1,0 +1,126 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+header{
+  width: 100%;
+  background: linear-gradient(135deg, #F1DEDC, #E1DABD, #ABC798);
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  border-radius: 0px 0px 30px 30px;
+}
+
+header img{
+  width: 65px;
+  height: 65px;
+}
+header span{
+  font-size: 2.3 rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.container{
+  width: 80%;
+  min-height: 100vh;
+  margin: 0 auto;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  box-shadow: rgb(0,0,0,0.5) 0 5px 10px;
+}
+
+.entry-card{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 1rem;
+  margin-top: 2rem;
+  width: 60vw;
+  height: 30vw;
+  border-radius: 30px;
+}
+
+.imageContainer{
+  width: 129px;
+  height: 230px;
+  overflow: hidden;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+.imageContainer img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.detailsContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.location{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 5px;
+}
+
+.location img{
+  width: 15px;
+  height: 15px;
+}
+
+.location span{
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  color: rgb(78, 78, 78);
+}
+.location a{
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: rgb(78, 78, 78);
+}
+.detailsContainer h2{
+  font-size: 2rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+.detailsContainer .date{
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: rgb(78, 78, 78,0.8);
+}
+.detailsContainer .explain{
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.4rem;
+  color: rgb(78, 78, 78);
+}
+

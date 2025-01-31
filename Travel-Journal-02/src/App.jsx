@@ -1,6 +1,12 @@
+import NavBar from './component/NavBar'
+import Entry from './component/Entry'
+
 function App(){
   return(
-    <h1>Hello from app</h1>
+    <>
+      <NavBar/>
+      <Entry/>
+    </>
   );
 }
 
