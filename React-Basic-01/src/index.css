@@ -43,6 +43,16 @@ nav ul{
   gap: 1rem;
   list-style: none;
 }
+nav ul li a{
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+nav ul li a:hover{
+  color: #61dafb;
+}
+
+
 
 .content{
   min-height: 80vh;
