@@ -67,6 +67,29 @@ nav ul{
   font-size: 2rem;
 }
 
+.rating-ai{
+  margin-left: 20px;
+  border-left: 1px solid #fff;
+  padding-left: 10px;
+}
+.about-ai{
+  width: 100%;
+  height: 50vh;
+}
+.containerAI{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerAI .card{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.containerAI h1{
+  color: #61dafb;
+}
 
 footer{
   display: flex;
