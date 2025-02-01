@@ -2,7 +2,7 @@ import AiComp from "./sub-component/AiComp";
 
 function AboutAI(){
     return (
-        <section className="about-ai">
+        <section id="aboutAI" className="about-ai">
             <AiComp
                     engine="ChatGPT"
                     isPowerful= {true}

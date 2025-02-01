@@ -7,9 +7,9 @@ function Nav() {
                     <span>SoftNSM</span>
                 </div>
                 <ul>
-                    <li>About AI</li>
-                    <li>What AI thinks</li>
-                    <li>Power of AI</li>
+                    <li><a href="#aboutAI">About AI</a></li>
+                    <li><a href="">What AI thinks</a></li>
+                    <li><a href="">Power of AI</a></li>
                 </ul>
             </nav>
         </>
