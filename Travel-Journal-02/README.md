@@ -13,6 +13,10 @@
  - How Props works as object and how to use it
 2. Styling:
  -Some new properties of CSS been on development of this project and learn something from it.
+3. Data structure:
+ - Used data.js to hold the data
+ - Get the data using mapping and passing the data to props
+ - use of menual and ES6 way with Spread operators
 
 ## Frontend User Interface:
 
