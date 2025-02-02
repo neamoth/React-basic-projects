@@ -1,4 +1,6 @@
 function Entries(Props){
+    console.log(Props);
+    
     return(
         <>
         <div className="entry-card">
