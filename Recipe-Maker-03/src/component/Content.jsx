@@ -1,13 +1,16 @@
+import React from 'react';
+
 function Content(){
-    const listOfItems = ['Chicken', "Sauce", "BBQ Masala"];
-    const ingredients = listOfItems.map(items => <li key={items}>{items}</li>)
+    const [item, setItem] = React.useState([]);
+    const ingredients = item.map(items => <li key={items}>{items}</li>)
     
     function handleSubmit(event){
         event.preventDefault(); // prevent redirect to another page
-        const formData = new FormData(event.currentTarget);
+        const formEl = event.currentTarget
+        const formData = new FormData(formEl);
         const newItem = formData.get("ingredient");
-        listOfItems.push(newItem);
-        console.log(listOfItems);
+        setItem(preItem => [...preItem, newItem])
+        formEl.reset()
         
         
     }
