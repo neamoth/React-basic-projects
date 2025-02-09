@@ -4,14 +4,9 @@ function Content(){
     const [item, setItem] = React.useState([]);
     const ingredients = item.map(items => <li key={items}>{items}</li>)
     
-    function handleSubmit(event){
-        event.preventDefault(); // prevent redirect to another page
-        const formEl = event.currentTarget
-        const formData = new FormData(formEl);
+    function handleSubmit(formData){
         const newItem = formData.get("ingredient");
         setItem(preItem => [...preItem, newItem])
-        formEl.reset()
-        
         
     }
 
