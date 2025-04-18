@@ -4,7 +4,7 @@ function Content(){
     const [item, setItem] = React.useState([]);
     const ingredients = item.map(items => <li key={items}>{items}</li>)
     
-    function handleSubmit(formData){
+    function addItems(formData){
         const newItem = formData.get("ingredient");
         setItem(preItem => [...preItem, newItem])
         
@@ -12,7 +12,7 @@ function Content(){
 
     return (
         <main>
-            <form className="add-form" onSubmit={handleSubmit}  action="">
+            <form action={addItems} className="add-form" >
                 <input 
                     type="text"
                     placeholder="e.g. chicken"
